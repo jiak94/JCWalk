@@ -118,7 +118,7 @@
                 android:src="@drawable/pow"
                 android:text="Hello, I am a Button2"
                 android:adjustViewBounds="true"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:scaleType="fitStart" />
         </TableRow>
     </TableLayout>

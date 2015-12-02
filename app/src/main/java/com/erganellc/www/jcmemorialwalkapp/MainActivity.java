@@ -31,15 +31,6 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void jumpToBlock() {
-        setContentView(R.layout.activity_test);
-
-    }
-
-    public void jumpToPlayer(String pointName) {
-        setContentView(R.layout.activity_audio);
-
-    }
 
     @Override
     public boolean onKeyDown(int keyCode, KeyEvent event) {

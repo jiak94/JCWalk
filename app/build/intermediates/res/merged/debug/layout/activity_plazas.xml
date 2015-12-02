@@ -29,7 +29,7 @@
                 android:src="@drawable/start"
                 android:layout_column="0"
                 android:adjustViewBounds="true"
-                android:scaleType="fitStart" />
+                android:scaleType="fitXY" />
             <ImageButton android:id="@+id/wwi"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -118,9 +118,9 @@
                 android:src="@drawable/pow"
                 android:text="Hello, I am a Button2"
                 android:adjustViewBounds="true"
-                android:layout_column="1"
+                android:layout_column="0"
                 android:scaleType="fitStart" />
         </TableRow>
     </TableLayout>
     </ScrollView>
-</LinearLayout><!-- From: file:/C:/Users/tjbcz/AndroidStudioProjects/JCMemorialWalkApp/app/src/main/res/layout/activity_plazas.xml -->
+</LinearLayout><!-- From: file:/home/jiakuan/androidProject/JCWalk/app/src/main/res/layout/activity_plazas.xml -->
