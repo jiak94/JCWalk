@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Plazas"
+        android:id="@+id/textView2"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp" />
+    <ScrollView android:id="@+id/ScrollView01"
+        android:layout_width="wrap_content" android:layout_height="wrap_content"
+        xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:shrinkColumns="0,1"
+        android:stretchColumns="0, 1"><!-- have an eye on ! -->
+        <TableRow><!-- row1 -->
+            <ImageButton android:id="@+id/intro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, I am a Button1"
+                android:src="@drawable/start"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart" />
+            <ImageButton android:id="@+id/wwi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/wwi"
+                android:text="Hello, I am a Button2"
+                android:layout_column="1"
+                android:scaleType="fitStart"
+                android:adjustViewBounds="true" />
+        </TableRow>
+        <TableRow><!-- row2 -->
+            <ImageButton android:id="@+id/wwii"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, I am a Button1"
+                android:src="@drawable/wwii"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart" />
+            <ImageButton android:id="@+id/korea"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/korea"
+                android:text="Hello, I am a Button2"
+                android:layout_column="1"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart" />
+        </TableRow>
+        <TableRow><!-- row3 -->
+            <ImageButton android:id="@+id/vietnam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, I am a Button1"
+                android:src="@drawable/vietnam"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart" />
+            <ImageButton android:id="@+id/gulf"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/gulf"
+                android:adjustViewBounds="true"
+                android:text="Hello, I am a Button2"
+                android:layout_column="1"
+                android:scaleType="fitStart" />
+        </TableRow>
+        <TableRow><!-- row4 -->
+            <ImageButton android:id="@+id/iraq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, I am a Button1"
+                android:src="@drawable/iraq"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart" />
+            <ImageButton android:id="@+id/afghan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/afghan"
+                android:text="Hello, I am a Button2"
+                android:adjustViewBounds="true"
+                android:layout_column="1"
+                android:scaleType="fitStart" />
+        </TableRow>
+        <TableRow><!-- row5 -->
+            <ImageButton android:id="@+id/women"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello, I am a Button1"
+                android:src="@drawable/women"
+                android:layout_column="0"
+                android:adjustViewBounds="true"
+                android:scaleType="fitStart" />
+            <ImageButton android:id="@+id/purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/purple"
+                android:text="Hello, I am a Button2"
+                android:adjustViewBounds="true"
+                android:layout_column="1"
+                android:scaleType="fitStart" />
+        </TableRow>
+        <TableRow>
+            <ImageButton android:id="@+id/pow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/pow"
+                android:text="Hello, I am a Button2"
+                android:adjustViewBounds="true"
+                android:layout_column="1"
+                android:scaleType="fitStart" />
+        </TableRow>
+    </TableLayout>
+    </ScrollView>
+</LinearLayout><!-- From: file:/C:/Users/tjbcz/AndroidStudioProjects/JCMemorialWalkApp/app/src/main/res/layout/activity_plazas.xml -->

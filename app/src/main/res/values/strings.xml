@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">JC Memorial Walk App</string>
+    <string name="Logo">Image</string>
+    <string name="string">More Info</string>
+    <string name="start">Start the Tour</string>
+    <string name="logo">logo</string>
+    <string name="icon">logo</string>
+    <string name="info">More Info</string>
+    <string name="play">play</string>
+</resources>
