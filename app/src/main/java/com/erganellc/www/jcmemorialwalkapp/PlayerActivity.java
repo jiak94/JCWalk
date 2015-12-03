@@ -1,16 +1,22 @@
 package com.erganellc.www.jcmemorialwalkapp;
 
+import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.support.v7.app.AppCompatActivity;
+import android.text.Html;
 import android.view.View;
 import android.widget.Chronometer;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
 import android.widget.TextView;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.util.Timer;
 import java.util.TimerTask;
 
@@ -51,6 +57,9 @@ public class PlayerActivity extends AppCompatActivity {
     private void findViews(final String pointName) {
         audio = (TextView) findViewById(R.id.audio);
         audio.setText(this.audioName);
+
+        desc = (TextView)findViewById(R.id.desc);
+        desc.setText(Html.fromHtml(readTextFile(this, R.raw.introdesc)));
 
         et_time = (Chronometer)findViewById(R.id.et_time);
 
@@ -345,5 +354,28 @@ public class PlayerActivity extends AppCompatActivity {
                audioName = "Intro";
         }
         return audioName;
+    }
+
+    public static String readTextFile(Context ctx, int resId)
+    {
+        InputStream inputStream = ctx.getResources().openRawResource(resId);
+
+        InputStreamReader inputreader = new InputStreamReader(inputStream);
+        BufferedReader bufferedreader = new BufferedReader(inputreader);
+        String line;
+        StringBuilder stringBuilder = new StringBuilder();
+        try
+        {
+            while (( line = bufferedreader.readLine()) != null)
+            {
+                stringBuilder.append(line);
+                stringBuilder.append('\n');
+            }
+        }
+        catch (IOException e)
+        {
+            return null;
+        }
+        return stringBuilder.toString();
     }
 }

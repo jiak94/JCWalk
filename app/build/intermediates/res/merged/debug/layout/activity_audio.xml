@@ -28,21 +28,6 @@
         android:layout_toEndOf="@+id/playButton"
         android:layout_alignBottom="@+id/playButton" />
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
-        android:id="@+id/desc"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true"
-        android:padding="5dp"
-        android:layout_below="@+id/playButton"
-        android:editable="false"
-        android:enabled="true" />
 
     <ImageButton
         android:layout_width="wrap_content"
@@ -66,5 +51,38 @@
         android:layout_alignRight="@+id/seekBar"
         android:layout_alignEnd="@+id/seekBar"
         android:paddingLeft="15dp" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/seekBar">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/scrollView"
+            android:layout_alignTop="@+id/desc"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Medium Text"
+                android:id="@+id/desc"
+                android:padding="5dp"
+                android:editable="false"
+                android:enabled="true"
+                android:nestedScrollingEnabled="true"
+                android:scrollIndicators="none"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </ScrollView>
+    </LinearLayout>
 
 </RelativeLayout><!-- From: file:/home/jiakuan/androidProject/JCWalk/app/src/main/res/layout/activity_audio.xml -->

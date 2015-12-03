@@ -14,16 +14,22 @@
         android:label="@string/app_name"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar" >
-        <activity android:name="com.erganellc.www.jcmemorialwalkapp.MainActivity" >
+        <activity
+            android:name="com.erganellc.www.jcmemorialwalkapp.MainActivity"
+            android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.erganellc.www.jcmemorialwalkapp.PlayerActivity" >
+        <activity
+            android:name="com.erganellc.www.jcmemorialwalkapp.PlayerActivity"
+            android:screenOrientation="portrait" >
         </activity>
-        <activity android:name="com.erganellc.www.jcmemorialwalkapp.BlockActivity" />
+        <activity
+            android:name="com.erganellc.www.jcmemorialwalkapp.BlockActivity"
+            android:screenOrientation="portrait" />
     </application>
 
 </manifest>

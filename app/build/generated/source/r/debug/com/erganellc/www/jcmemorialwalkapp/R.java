@@ -1649,12 +1649,12 @@ containing a value of this type.
         public static final int customPanel=0x7f0d0036;
         public static final int decor_content_parent=0x7f0d003f;
         public static final int default_activity_button=0x7f0d0027;
-        public static final int desc=0x7f0d0053;
+        public static final int desc=0x7f0d0054;
         public static final int disableHome=0x7f0d000c;
         public static final int edit_query=0x7f0d0043;
         public static final int end=0x7f0d0019;
         public static final int end_padder=0x7f0d0070;
-        public static final int et_time=0x7f0d0054;
+        public static final int et_time=0x7f0d0053;
         public static final int expand_activities_button=0x7f0d0025;
         public static final int expanded_menu=0x7f0d0038;
         public static final int gulf=0x7f0d005f;
@@ -1787,15 +1787,16 @@ containing a value of this type.
         public static final int afghanistan=0x7f060000;
         public static final int gulfwar=0x7f060001;
         public static final int intro=0x7f060002;
-        public static final int iraqwar=0x7f060003;
-        public static final int koreanwar=0x7f060004;
-        public static final int powmia=0x7f060005;
-        public static final int purpleheart=0x7f060006;
-        public static final int vietnam=0x7f060007;
-        public static final int women=0x7f060008;
-        public static final int womeninservice=0x7f060009;
-        public static final int ww1=0x7f06000a;
-        public static final int ww2=0x7f06000b;
+        public static final int introdesc=0x7f060003;
+        public static final int iraqwar=0x7f060004;
+        public static final int koreanwar=0x7f060005;
+        public static final int powmia=0x7f060006;
+        public static final int purpleheart=0x7f060007;
+        public static final int vietnam=0x7f060008;
+        public static final int women=0x7f060009;
+        public static final int womeninservice=0x7f06000a;
+        public static final int ww1=0x7f06000b;
+        public static final int ww2=0x7f06000c;
     }
     public static final class string {
         public static final int Logo=0x7f070014;
