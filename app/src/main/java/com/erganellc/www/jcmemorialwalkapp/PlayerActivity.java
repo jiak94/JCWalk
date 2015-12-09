@@ -40,6 +40,7 @@ public class PlayerActivity extends AppCompatActivity {
     private Chronometer et_time;
     private long falgTime = 0,beginTime = 0, pauseTime = 0, subTime = 0;
     private String pointName;
+    private int descId = 0;
 
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -59,7 +60,7 @@ public class PlayerActivity extends AppCompatActivity {
         audio.setText(this.audioName);
 
         desc = (TextView)findViewById(R.id.desc);
-        desc.setText(Html.fromHtml(readTextFile(this, R.raw.introdesc)));
+        desc.setText(Html.fromHtml(readTextFile(this, descId)));
 
         et_time = (Chronometer)findViewById(R.id.et_time);
 
@@ -150,7 +151,6 @@ public class PlayerActivity extends AppCompatActivity {
             case "afghan":
                 try {
                     player = MediaPlayer.create(this, R.raw.afghanistan);
-
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -159,6 +159,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "gulf":
                 try {
                     player = MediaPlayer.create(this, R.raw.gulfwar);
+                    //descId = R.raw.gulfdesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -167,6 +168,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "iraq":
                 try {
                     player = MediaPlayer.create(this, R.raw.iraqwar);
+                    //descId = R.raw.iraqdesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -175,6 +177,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "korea":
                 try {
                     player = MediaPlayer.create(this, R.raw.koreanwar);
+                    //descId = R.raw.koreandesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -183,6 +186,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "pow":
                 try {
                     player = MediaPlayer.create(this, R.raw.powmia);
+                    //descId = R.raw.powdesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -191,6 +195,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "purple":
                 try {
                     player = MediaPlayer.create(this, R.raw.purpleheart);
+                    //descId = R.raw.purpledesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -199,6 +204,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "start":
                 try {
                     player = MediaPlayer.create(this, R.raw.intro);
+                    //descId = R.raw.introdesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -207,6 +213,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "vietnam":
                 try {
                     player = MediaPlayer.create(this, R.raw.vietnam);
+                    //descId = R.raw.vietnamdesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -215,6 +222,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "women":
                 try {
                     player = MediaPlayer.create(this, R.raw.women);
+                    //descId = R.raw.womendesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -223,6 +231,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "wwi":
                 try {
                     player = MediaPlayer.create(this, R.raw.ww1);
+                    //descId = R.raw.wwidesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -231,6 +240,7 @@ public class PlayerActivity extends AppCompatActivity {
             case "wwii":
                 try {
                     player = MediaPlayer.create(this, R.raw.ww2);
+                    //descId = R.raw.wwiidesc;
                 }catch (Exception e) {
                     e.printStackTrace();
                 }
@@ -295,63 +305,67 @@ public class PlayerActivity extends AppCompatActivity {
         super.onResume();
     }
 
-    private String ShowTime(int time) {
-        time /= 100;
-        int min = time/60;
-        int h = min/60;
-        int sec = time % 60;
-        return String.format("%02d:%02d", min, sec);
-    }
-
     private String setAudioName(String pointName) {
         String audioName;
         switch (pointName) {
             case "afghan":
                 audioName = "Afghanistan";
+                descId = R.raw.afghandesc;
                 break;
 
             case "gulf":
                 audioName = "Gulf War";
+                descId = R.raw.gulfdesc;
                 break;
 
             case "iraq":
                 audioName = "Iraq War";
+                descId = R.raw.iraqdesc;
                 break;
 
             case "korea":
                 audioName = "Korean War";
+                descId = R.raw.koreandesc;
                 break;
 
             case "pow":
                 audioName = "POW MIA";
+                descId = R.raw.powdesc;
                 break;
 
             case "purple":
                 audioName = "Purple Heart";
+                descId = R.raw.purpledesc;
                 break;
 
             case "start":
                 audioName = "Intro";
+                descId = R.raw.introdesc;
                 break;
 
             case "vietnam":
                 audioName = "Vietnam";
+                descId = R.raw.vietnamdesc;
                 break;
 
             case "women":
                 audioName = "Women in Service";
+                descId = R.raw.womendesc;
                 break;
 
             case "wwi":
                 audioName = "WWI";
+                descId = R.raw.wwidesc;
                 break;
 
             case "wwii":
                 audioName = "WWII";
+                descId = R.raw.wwiidesc;
                 break;
 
             default:
                audioName = "Intro";
+                descId = R.raw.introdesc;
         }
         return audioName;
     }
