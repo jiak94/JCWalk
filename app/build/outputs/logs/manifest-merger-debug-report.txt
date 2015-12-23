@@ -1,67 +1,75 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:2:1-24:12
-	xmlns:android
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:2:11-69
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:2:1-26:12
 	package
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:3:5-50
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:3:5-50
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
 application
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:5:5-22:19
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/jiakuan/androidProject/JCWalk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-v4:23.1.1] /home/jiakuan/androidProject/JCWalk/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:22:5-20
-	android:supportsRtl
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:9:9-35
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:5:5-24:19
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:8:9-41
+	android:supportsRtl
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:9:9-35
 	android:allowBackup
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:6:9-35
 	android:icon
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:7:9-45
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:7:9-45
+	android:largeHeap
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:10:9-33
 	android:theme
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:10:9-59
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:11:9-59
 activity#com.erganellc.www.jcmemorialwalkapp.MainActivity
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:11:9-17:20
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:12:9-18:20
 	android:screenOrientation
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:11:48-84
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:12:48-84
 	android:name
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:11:19-47
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:12:19-47
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:12:13-16:29
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:13:13-17:29
 action#android.intent.action.MAIN
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:13:17-69
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:14:17-69
 	android:name
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:13:25-66
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:14:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:15:17-77
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:16:17-77
 	android:name
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:15:27-74
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:16:27-74
 activity#com.erganellc.www.jcmemorialwalkapp.PlayerActivity
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:18:9-20:20
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:19:9-21:20
 	android:screenOrientation
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:18:50-86
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:19:50-86
 	android:name
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:18:19-49
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:19:19-49
 activity#com.erganellc.www.jcmemorialwalkapp.BlockActivity
-ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:21:9-97
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:22:9-97
 	android:screenOrientation
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:21:49-85
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:22:49-85
 	android:name
-		ADDED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml:21:19-48
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:22:19-48
+activity#com.erganellc.www.jcmemorialwalkapp.MoreInfoActivity
+ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:23:9-100
+	android:screenOrientation
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:23:52-88
+	android:name
+		ADDED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml:23:19-51
 uses-sdk
-INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.android.support:appcompat-v7:23.1.1] /home/jiakuan/androidProject/JCWalk/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-v4:23.1.1] /home/jiakuan/androidProject/JCWalk/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/AndroidManifest.xml:20:5-43
+INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
 	android:targetSdkVersion
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
-		INJECTED from /home/jiakuan/androidProject/JCWalk/app/src/main/AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\tjbcz\AndroidStudioProjects\JCMemorialWalkApp\app\src\main\AndroidManifest.xml
