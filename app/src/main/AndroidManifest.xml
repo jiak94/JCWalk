@@ -20,6 +20,7 @@
 
         </activity>
         <activity android:name=".BlockActivity" android:screenOrientation="portrait"></activity>
+        <activity android:name=".MoreInfoActivity" android:screenOrientation="portrait"></activity>
     </application>
 
 </manifest>

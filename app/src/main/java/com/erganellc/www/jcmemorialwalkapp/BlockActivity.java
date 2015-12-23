@@ -17,18 +17,6 @@ public class BlockActivity extends AppCompatActivity {
         super.onCreate(savedInstance);
         setContentView(R.layout.activity_plazas);
 
-        //button = (Button) findViewById(R.id.button3);
-
-//        button.setOnClickListener(new Button.OnClickListener() {
-//            public void onClick(View v) {
-//                Intent intent = new Intent(BlockActivity.this, PlayerActivity.class);
-//                intent.putExtra("pointName", "afghan");
-//                intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                startActivity(intent);
-//            }
-//
-//        });
-
         start = (ImageButton)findViewById(R.id.intro);
         start.setOnClickListener(new Listener("start"));
 
