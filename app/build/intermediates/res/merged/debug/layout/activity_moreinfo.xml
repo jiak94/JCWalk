@@ -22,7 +22,9 @@
         android:id="@+id/scrollView2"
         android:layout_centerHorizontal="true"
         android:layout_below="@+id/textView"
-        android:fillViewport="false">
+        android:fillViewport="false"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp">
 
         <TextView
             android:layout_width="wrap_content"
