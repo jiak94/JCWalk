@@ -8,10 +8,10 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 /**
- * Created by tjbcz on 11/30/2015.
+ * Created by Jiakuan on 11/30/2015.
  */
 public class BlockActivity extends AppCompatActivity {
-    ImageButton start, wwi, wwii, korea, viet, gulf, iraq, afghan, women, purple, pow;
+    private ImageButton start, wwi, wwii, korea, viet, gulf, iraq, afghan, women, purple, pow;
 
     public void onCreate(Bundle savedInstance) {
         super.onCreate(savedInstance);
