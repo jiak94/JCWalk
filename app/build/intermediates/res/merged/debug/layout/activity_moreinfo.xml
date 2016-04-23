@@ -33,4 +33,4 @@
             android:text="infoPage"
             android:id="@+id/infoPage" />
     </ScrollView>
-</RelativeLayout><!-- From: file:/C:/Users/tjbcz/AndroidStudioProjects/JCMemorialWalkApp/app/src/main/res/layout/activity_moreinfo.xml -->
+</RelativeLayout>

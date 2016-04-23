@@ -13,9 +13,11 @@
         android:autoText="false"
         android:background="#1c1c1c"
         android:padding="5dp"
-        android:layout_toRightOf="@+id/playButton"
         android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/playButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <SeekBar
         android:layout_width="wrap_content"
@@ -26,21 +28,22 @@
         android:layout_alignEnd="@+id/audio"
         android:layout_toRightOf="@+id/playButton"
         android:layout_toEndOf="@+id/playButton"
-        android:layout_alignBottom="@+id/playButton" />
+        android:layout_alignBottom="@+id/playButton"
+        android:background="#1c1c1c" />
 
 
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/playButton"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:src="@drawable/play_50"
         android:background="#0b457e"
         android:padding="10dp"
         android:adjustViewBounds="true"
-        android:clickable="true" />
+        android:clickable="true"
+        android:layout_below="@+id/audio"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Chronometer
         android:layout_width="wrap_content"
@@ -50,7 +53,10 @@
         android:layout_toRightOf="@+id/playButton"
         android:layout_alignRight="@+id/seekBar"
         android:layout_alignEnd="@+id/seekBar"
-        android:paddingLeft="15dp" />
+        android:layout_below="@+id/audio"
+        android:background="#1c1c1c"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -66,7 +72,8 @@
             android:id="@+id/scrollView"
             android:layout_alignTop="@+id/desc"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" >
+            android:layout_alignParentStart="true"
+            android:background="#1c1c1c">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -85,4 +92,4 @@
         </ScrollView>
     </LinearLayout>
 
-</RelativeLayout><!-- From: file:/C:/Users/tjbcz/AndroidStudioProjects/JCMemorialWalkApp/app/src/main/res/layout/activity_audio.xml -->
+</RelativeLayout>

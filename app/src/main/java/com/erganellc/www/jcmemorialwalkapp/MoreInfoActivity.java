@@ -1,8 +1,8 @@
 package com.erganellc.www.jcmemorialwalkapp;
 
+import android.app.Activity;
 import android.content.Context;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.util.Log;
 import android.widget.TextView;;
@@ -15,7 +15,7 @@ import java.io.InputStreamReader;
 /**
  * Created by Jiakuan Li on 12/22/2015.
  */
-public class MoreInfoActivity extends AppCompatActivity {
+public class MoreInfoActivity extends Activity {
     private TextView infoPage;
 
     @Override

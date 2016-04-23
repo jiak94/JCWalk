@@ -1,11 +1,11 @@
 package com.erganellc.www.jcmemorialwalkapp;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.os.SystemClock;
-import android.support.v7.app.AppCompatActivity;
 import android.text.Html;
 import android.view.View;
 import android.widget.Chronometer;
@@ -24,7 +24,7 @@ import java.util.TimerTask;
  * Created by Jiakuan
  * on 11/30/2015.
  */
-public class PlayerActivity extends AppCompatActivity {
+public class PlayerActivity extends Activity {
     private boolean complete = true;
     private ImageButton play_pause;
     private SeekBar seekbar;
@@ -61,6 +61,8 @@ public class PlayerActivity extends AppCompatActivity {
 
         desc = (TextView)findViewById(R.id.desc);
         desc.setText(Html.fromHtml(readTextFile(this, descId)));
+
+        //desc.setText(Html.fromHtml(test(true)));
 
         et_time = (Chronometer)findViewById(R.id.et_time);
 
@@ -392,4 +394,5 @@ public class PlayerActivity extends AppCompatActivity {
         }
         return stringBuilder.toString();
     }
+
 }
